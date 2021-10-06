@@ -1,1 +1,1 @@
-# Hello-You-beroepsopdracht
+Dit is de eerste beroepsopdracht die ik op het mediaollege bij de opdracht software development gekregen heb. Het is een verhaal over een nieuwkomer in Nederland. dit is gebaseerd op allerlei verhalen die ik gelezen en gehoord hebt. Hiervoor heb ik een text based applicatie gemaakt om het verhaal ook door andere te laten beleven. door verschillende keuzes te maken krijg je andere verhjaallijn en zullen er verschillende eindes komen.
