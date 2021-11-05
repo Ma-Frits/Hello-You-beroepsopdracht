@@ -1,5 +1,7 @@
+
 import time
 import sys
+
 print("Dit is een text based applicatie dat gaat over een nieuwkomer dat moest vluchten naar een ander land om veilig te zijn.")
 print("weet jij de goede keuzes te maken om veilig te blijven?")
 time.sleep(1)
@@ -52,7 +54,25 @@ else:
                 print("kies z voor zoek politie, kies i voor ga verder illegaal")
                 antwoord14 = input()
                 if antwoord14 == "i":
-                    print("je word gevonden en teruggestuurd naar je eigen land") 
+                    print("je hebt bijna geen geld meer over") 
+                    print("kies w voor werk zoeken, kies s voor stelen")
+                    antwoord15 = input()
+                    if antwoord15 == "w":
+                        print("je gaat op zoek naar werk en vind een baan in een supermarkt")
+                        print("kies s voor spaar voor onderdak, kies d voor drank en drug")
+                        antwoord16 = input()
+                        if antwoord16 == "s":
+                            print("je leeft nog lang en gelukkig")
+                            print("GEFELICITEERD")
+                            sys.exit()
+                        else: 
+                            print("je raakt verslaaft en gaat dood aan een overdosis")
+                            sys.exit()
+                    else:
+                        print("je begint met zakkenrollen en het gaat goed dus je wilt meer")
+                        print("na een lange tijd ga je drugs verkopen en word je de drugs baron van nederland")
+                        print("je word gezocht door alle politie en word aangehouden")
+                        sys.exit()
                 else:
                     print("je vind de politie en zegt dat je asiel aan wilt vragen")
                     print("je word meegenomen en geplaats in een azc waar je een paar vragen krijgt")
@@ -91,7 +111,25 @@ else:
                     print("kies z voor zoek politie, kies i voor ga verder illegaal")
                     antwoord9 = input()
                     if antwoord9 == "i":
-                        print("je word gevonden en teruggestuurd naar je eigen land") 
+                        print("je hebt bijna geen geld meer over") 
+                        print("kies w voor werk zoeken, kies s voor stelen")
+                        antwoord18 = input()
+                        if antwoord18 == "w":
+                            print("je gaat op zoek naar werk en vind een baan in een supermarkt")
+                            print("kies s voor spaar voor onderdak, kies d voor drank en drug")
+                            antwoord17 = input()
+                            if antwoord17 == "s":
+                                print("je leeft nog lang en gelukkig")
+                                print("GEFELICITEERD")
+                                sys.exit()
+                            else: 
+                                print("je raakt verslaaft en gaat dood aan een overdosis")
+                                sys.exit()
+                        else:
+                            print("je begint met zakkenrollen en het gaat goed dus je wilt meer")
+                            print("na een lange tijd ga je drugs verkopen en word je de drugs baron van nederland")
+                            print("je word gezocht door alle politie en word aangehouden")
+                            sys.exit()
                     else:
                         print("je vind de politie en zegt dat je asiel aan wilt vragen")
                         print("je word meegenomen en geplaats in een azc waar je een paar vragen krijgt")
@@ -138,7 +176,3 @@ else:
                     print("uiteindelijk ben je goed genoeg en krijg je een paspoort voor Nederland")
                     print("GEfELICITEERD")
                     sys.exit()
-                    
-
-                
- 
